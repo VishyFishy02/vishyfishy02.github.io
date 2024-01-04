@@ -68,7 +68,7 @@ function loadModels(){
   const loader = new GLTFLoader();
 
   // red book
-  loader.load('red_book.glb', function(gltf) {
+  loader.load('./red_book.glb', function(gltf) {
     book = gltf.scene;
     book.scale.set(BOOK_SCALE, BOOK_SCALE, BOOK_SCALE);
     book.position.set(-5, 0.7, 30);
@@ -76,7 +76,7 @@ function loadModels(){
   });
 
   // laptop
-  loader.load('laptop.glb', function(gltf) {
+  loader.load('./laptop.glb', function(gltf) {
     laptop = gltf.scene;
     laptop.scale.set(LAPTOP_SCALE, LAPTOP_SCALE, LAPTOP_SCALE);
     laptop.position.set(0, 0, -5);
