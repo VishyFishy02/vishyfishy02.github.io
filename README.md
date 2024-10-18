@@ -6,4 +6,4 @@ Ideas:
 -- connect it to a streaming service api, where I can make a playlist on my phone and have that be the queue
 of songs for the website
 
--- add more objects? maybe change the torus ring for something else?
+-- add more objects? maybe change the torus ring for a cool spinning chandeleir or something?
