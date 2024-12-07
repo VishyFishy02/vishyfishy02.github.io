@@ -82,7 +82,7 @@ section {
   text-align: left;
   padding-bottom: 0.5rem;
   border-top: 3px solid #8cbdb3;
-  display: inline-block;  /* This makes the border only as wide as the text */
+  display: inline-block;  
 }
 
 .project-card {
@@ -158,8 +158,8 @@ blockquote p {
 }
 
 a {
-  text-decoration: none; /* No underline by default */
-  color: #8cbdb3; /* Optional: makes the link color the same as regular text */
+  text-decoration: none; 
+  color: #8cbdb3; 
 }
 a:hover {
   text-decoration: none; 
@@ -171,7 +171,7 @@ a:hover {
       grid-template-columns: repeat(6, 1fr);
   }
   header, footer, section, .left {
-      grid-column: 1 / -1; /* Full width */
+      grid-column: 1 / -1; 
   }
   body {
     font-size: 14px; 
@@ -187,10 +187,9 @@ a:hover {
 @media screen and (max-width: 480px) {
   p, li {
     line-height: 1.4; 
-    /* Optionally, limit the max-width of text blocks for readability */
   }
   main {
-    /* grid-template-columns: 1fr;  */
+   
     padding: 60px 20px; 
   }
  
