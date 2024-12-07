@@ -5,7 +5,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        works: './works.html'
+        about: './about.html'
       }
     }
   }
